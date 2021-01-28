@@ -1,24 +1,34 @@
 // https://github.com/MDSHAWON01/assignment3
 
 //problem 1
-function kilometerToMeter(kilo){
-    var meter = kilo / 1000;
-    return meter;
-
+function kilometerToMeter(kiloMeter){
+  var meter =kiloMeter*1000;
+  return meter;
 }
-var tableFeet = kilometerToMeter(50000);
-console.log(tableFeet);
+var convertToMeter=kilometerToMeter(20);
+console.log(convertToMeter);
+  
+
+  
+
+
+   
 
 
 
 //problem 2
 function budgetCalculator(clock, mobile, laptop){
-    var result =clock+mobile+laptop;
-    return result;
+    var clockPrice =clock*50;
+    var watchPrice =mobile*100;
+    var laptopPrice =laptop*500;
 
-}
-var sum =budgetCalculator(50,100,500);
-console.log(sum);
+    
+
+      var output=clockPrice+watchPrice+laptopPrice;
+      return total;
+    }
+      
+
 
 
 
